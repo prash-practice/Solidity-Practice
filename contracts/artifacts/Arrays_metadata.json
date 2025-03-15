@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Fill",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint64",
+						"name": "key",
+						"type": "uint64"
+					}
+				],
+				"name": "addEle",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "display",
+				"outputs": [
+					{
+						"internalType": "uint64[10]",
+						"name": "",
+						"type": "uint64[10]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAllElements",
+				"outputs": [
+					{
+						"internalType": "uint64[]",
+						"name": "",
+						"type": "uint64[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ArraysAndLoops.sol": "Arrays"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ArraysAndLoops.sol": {
+			"keccak256": "0x19d16532461717dde8732b6d12190518ac067670df8959ea6771d95824dc79ba",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://45418c07b44c3f4d3576f5460702c223bb6bd5c06a191d00882c5a675ced604e",
+				"dweb:/ipfs/QmVN7rn43FE2c9b9tnMELR8PFG9MjpoVmErmWMfxzDnMa6"
+			]
+		}
+	},
+	"version": 1
+}
