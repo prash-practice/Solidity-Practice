@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "communicate",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCommunicate",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getWelcome",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/contractsCommunication.sol": "ContractCommunication"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Helloworld.sol": {
+			"keccak256": "0xb7e0255f6a4e45f1762289c3f7b1bdc669e0554e223d148332aa1a0de67f8c93",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e190a643ab78863e4e958a4badf59b6aa95ebc4fc23d77a667cda4719e056c2b",
+				"dweb:/ipfs/QmaMkBrVLyGUtM4bbgsgXNbs5Sj3cPJWwUH3AcKfs744eK"
+			]
+		},
+		"contracts/contractsCommunication.sol": {
+			"keccak256": "0x3e39e8379b180a17b3fdfb94ab1cbd86c8019ee03cb329bd90fe74f08ae9202f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://114f5defc2cb3b488f464ce8b4f133f84eb7ed014116a7fb22b9e0b142f9810d",
+				"dweb:/ipfs/Qmd7gjGXTYCXffqMvQgAHBDFrh7XtkmoGTxkdpE1o4u91U"
+			]
+		}
+	},
+	"version": 1
+}
